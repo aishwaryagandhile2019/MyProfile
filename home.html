@@ -2,31 +2,55 @@
 <html>
 <head>
     <title>Home</title>
-    <style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab:wght@100;200;400&display=swap" rel="stylesheet">
+   <style>
+        *{
+            
+            font-family: 'Roboto Slab', serif;
+        }
         .people{
             color:pink;
             background-color: green;
+            text-transform: uppercase;
         }
+        #people{
+            text-shadow: forestgreen;
+            text-decoration: double;
+            text-shadow:2px 2px red;
+        }
+
         #person{
             color:black;
             background-color: yellow;
         }
+        .list{
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+        }
+        ul{
+            list-style-type: circle;
+        }
     </style>
 </head>
 <body>
-    <h2 class="people">Career Objective</h2>
+    <h2  id="people" class="people">Career Objective</h2>
     <p>TO WORK IN ORGANISATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</p>
-    <h2 class="people">Professional Summary </h2>
+    <h2 id="people" class="people">Professional Summary </h2>
     <ul>
-        <li style="color:pink; background-color: goldenrod;"> Having 1 years of experience in developing single page web Application using<span id="person"> Angular 8</span>,HTML5,CSS3,Bootstrap 5,JavaScript,Typescript</li>
-        <li style="color:yellow;background-color:red;"> Experience on working with version control system-GIT and GItHub</li>
-        <li style="color:pink;background-color:black"> Experience working with JIRA for users stroies and bug tracking</li>
-        <li style="color:firebrick;background-color:yellow;"> Strong Debugging & Troubleshooting code experience using Chrome Deveoper Tool</li>
-        <li style="color:gold;background-color:red"> Working exposure on ID's like VS code and Notepad++</li>
-        <li style="color:fuchsia;background-color:hotpink;"> Good working experience under Agile methodologies environment</li>
-        <li style="color:honeydew;background-color:black;"> Experience in using Chrome Deveoper Tool for debugging and Troubleshooting the code </li>
-        <li style="color:rebeccapurple;background-color:yellowgreen;">Knowledge of NodeJS</li>
-        <li style="color:yellow;background-color:red;">Ability to work with people at all levels in the program</li>
+        <li class="list"> Having 1 years of experience in developing single page web Application using<span id="person"> Angular 8</span>,HTML5,CSS3,Bootstrap 5,JavaScript,Typescript</li>
+        <li  class="list"> Experience on working with version control system-GIT and GItHub</li>
+        <li  class="list"> Experience on working with version control system-GIT and GItHub</li>
+        <l class="list"> Experience on working with version control system-GIT and GItHub</li>
+        <li class="list"> Strong Debugging & Troubleshooting code experience using Chrome Deveoper Tool</li>
+        <li  class="list" style="color:gold;background-color:red"> Working exposure on ID's like VS code and Notepad++</li>
+        <li  class="list"> Good working experience under Agile methodologies environment</li>
+        <li class="list"> Experience in using Chrome Deveoper Tool for debugging and Troubleshooting the code </li>
+        <li  class="list">Knowledge of NodeJS</li>
+        <li  class="list">Ability to work with people at all levels in the program</li>
     </ul>
     
 </body>
