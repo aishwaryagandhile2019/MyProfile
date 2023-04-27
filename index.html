@@ -3,42 +3,67 @@
 <head>
     <title>Index Page</title>
      <!-- CDN Link -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab:wght@100;200;400&display=swap" rel="stylesheet">
      <style>
+
+        *{
+            margin:0px;
+            padding: 0px;
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Roboto Slab', serif;
+        }
         header{
             background-color:yellow;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color:red;
+            margin-right: 50px;
+            padding: 20px;
+            font-size:large;
+        }
+        .page{
+            margin-right: 30px;
+            font-family: 'Sriracha';
+            color:black;
+        }
+        .page2{
+            margin-right: 40px;
+        }
+        span{
+            margin-right: 40px;
         }
      </style>
     </head>
 <body>
     <header>
     <i  class="fa fa-user-circle" aria-hidden="true"></i>
-    <span>Mohit Sharma </span> &nbsp; &nbsp; &nbsp;
+    <span class="page">Mohit Sharma </span> 
     <i class="fa fa-phone-square" aria-hidden="true"></i>
-    <span> 8600 2222 50 </span> &nbsp; &nbsp; &nbsp;
+    <span class="page"> 8600 2222 50 </span> 
     <i class="fa fa-envelope-o" aria-hidden="true"></i>
-    <span> gajanan.kharat@gmail.com </span>
+    <span class="page"> mohit.sharma@gmail.com </span>
 </header>
-    <br> <br> 
+    <br> 
    <nav>
-        <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp;
-        <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp;
-        <a href="education.html" target="frame"> EDUCATION </a> &nbsp; &nbsp; &nbsp;
-        <a href="personal.html" target="frame"> PERSONAL </a> &nbsp; &nbsp; &nbsp;
-        <a href="contactUs.html" target="frame"> CONTACT ME </a>
+        <a class="page2" href="home.html" target="frame">HOME</a> 
+        <a class="page2" href="techStack.html" target="frame">TECHNOLOGY STACK</a> 
+        <a class="page2" href="education.html" target="frame"> EDUCATION </a> 
+        <a class="page2" href="personal.html" target="frame"> PERSONAL </a>
+        <a class="page2" href="contactUs.html" target="frame"> CONTACT ME </a>
     </nav><br>
-    <iframe width="900px" height="400px" name="frame" src="home.html">
+    <iframe width="800px" height="400px" name="frame" src="home.html">
         <iframe width="1050px" height="600px" name="frame">
     </iframe>
 
-    <br> <br> 
-    <span>Follow me</span> &nbsp;&nbsp;
-    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
-    <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp;
-    <a href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp;
-    <a href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i></a>
+    <br> 
+    <span id="page2">Follow me</span>
+    <a class="page2" href="https://www.linkedin.com/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    <a class="page2" href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+    <a class="page2" href="https://www.facebook.com/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> 
+    <a class="page2" href="https://www.google.com/"><i class="fa fa-google" aria-hidden="true"></i></a>
     
 </body>
 </html>
